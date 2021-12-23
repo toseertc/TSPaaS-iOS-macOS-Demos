@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E004B4F438A698152708F64 /* Pods_macOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACDB9F5ACF7969AD71B7212 /* Pods_macOSDemo.framework */; };
+		779E058186B986D8C8CCE075 /* Pods_iOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA42BA791ABD7367CCA5562 /* Pods_iOSDemo.framework */; };
 		866CE2452774126B00D1E401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2442774126B00D1E401 /* AppDelegate.swift */; };
-		866CE2472774126B00D1E401 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2462774126B00D1E401 /* SceneDelegate.swift */; };
 		866CE2492774126B00D1E401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2482774126B00D1E401 /* ViewController.swift */; };
 		866CE24C2774126B00D1E401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866CE24A2774126B00D1E401 /* Main.storyboard */; };
 		866CE24E2774126C00D1E401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866CE24D2774126C00D1E401 /* Assets.xcassets */; };
@@ -17,12 +18,75 @@
 		866CE25F2774128600D1E401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE25E2774128600D1E401 /* ViewController.swift */; };
 		866CE2612774128700D1E401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866CE2602774128700D1E401 /* Assets.xcassets */; };
 		866CE2642774128700D1E401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866CE2622774128700D1E401 /* Main.storyboard */; };
+		866CE2742774477F00D1E401 /* VideoChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2702774477E00D1E401 /* VideoChatManager.swift */; };
+		866CE2752774477F00D1E401 /* VideoChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2702774477E00D1E401 /* VideoChatManager.swift */; };
+		866CE2762774477F00D1E401 /* VideoChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2712774477E00D1E401 /* VideoChatItem.swift */; };
+		866CE2772774477F00D1E401 /* VideoChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2712774477E00D1E401 /* VideoChatItem.swift */; };
+		866CE2782774477F00D1E401 /* EngineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2722774477E00D1E401 /* EngineManager.swift */; };
+		866CE2792774477F00D1E401 /* EngineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2722774477E00D1E401 /* EngineManager.swift */; };
+		866CE27A2774477F00D1E401 /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2732774477F00D1E401 /* KeyCenter.swift */; };
+		866CE27B2774477F00D1E401 /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2732774477F00D1E401 /* KeyCenter.swift */; };
+		866CE288277447ED00D1E401 /* VideoChatLocalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE27C277447ED00D1E401 /* VideoChatLocalCell.xib */; };
+		866CE289277447ED00D1E401 /* VideoChatRemoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE27D277447ED00D1E401 /* VideoChatRemoteCell.swift */; };
+		866CE28A277447ED00D1E401 /* VideoChatRemoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE27E277447ED00D1E401 /* VideoChatRemoteCell.xib */; };
+		866CE28B277447ED00D1E401 /* VideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE27F277447ED00D1E401 /* VideoChatViewController.swift */; };
+		866CE28C277447ED00D1E401 /* DeviceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE280277447ED00D1E401 /* DeviceListViewController.xib */; };
+		866CE28D277447ED00D1E401 /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE281277447ED00D1E401 /* DeviceListViewController.swift */; };
+		866CE28E277447ED00D1E401 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE282277447ED00D1E401 /* LoginViewController.swift */; };
+		866CE28F277447ED00D1E401 /* VideoChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE283277447ED00D1E401 /* VideoChatViewController.xib */; };
+		866CE290277447ED00D1E401 /* TSAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE284277447ED00D1E401 /* TSAlertView.xib */; };
+		866CE291277447ED00D1E401 /* TSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE285277447ED00D1E401 /* TSAlertView.swift */; };
+		866CE292277447ED00D1E401 /* TSAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE286277447ED00D1E401 /* TSAlertHelper.swift */; };
+		866CE293277447ED00D1E401 /* VideoChatLocalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE287277447ED00D1E401 /* VideoChatLocalCell.swift */; };
+		866CE29D2774492900D1E401 /* NSColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE29A2774492900D1E401 /* NSColor+Extention.swift */; };
+		866CE29E2774492900D1E401 /* TSMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CE29C2774492900D1E401 /* TSMView.m */; };
+		866CE29F2774496B00D1E401 /* TSPaaS_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866CE294277448C200D1E401 /* TSPaaS_macOS.framework */; };
+		866CE2A02774496B00D1E401 /* TSPaaS_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 866CE294277448C200D1E401 /* TSPaaS_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		866CE2D02774637100D1E401 /* VideoChatLocalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE2C62774637100D1E401 /* VideoChatLocalCell.xib */; };
+		866CE2D12774637100D1E401 /* VideoChatLocalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2C72774637100D1E401 /* VideoChatLocalCell.swift */; };
+		866CE2D22774637100D1E401 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2C82774637100D1E401 /* ChannelViewController.swift */; };
+		866CE2D32774637100D1E401 /* ChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE2C92774637100D1E401 /* ChannelViewController.xib */; };
+		866CE2D42774637100D1E401 /* VideoChatRemoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2CA2774637100D1E401 /* VideoChatRemoteCell.swift */; };
+		866CE2D52774637100D1E401 /* VideoChatRemoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE2CB2774637100D1E401 /* VideoChatRemoteCell.xib */; };
+		866CE2D72774637100D1E401 /* TSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2CD2774637100D1E401 /* TSAlertView.swift */; };
+		866CE2D82774637100D1E401 /* TSAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2CE2774637100D1E401 /* TSAlertHelper.swift */; };
+		866CE2D92774637100D1E401 /* TSAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE2CF2774637100D1E401 /* TSAlertView.xib */; };
+		866CE2DA277463FA00D1E401 /* TSPaaS_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866CE2C32774634F00D1E401 /* TSPaaS_iOS.framework */; platformFilter = ios; };
+		866CE2DB277463FA00D1E401 /* TSPaaS_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 866CE2C32774634F00D1E401 /* TSPaaS_iOS.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		866CE2A12774496B00D1E401 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				866CE2A02774496B00D1E401 /* TSPaaS_macOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866CE2DC277463FA00D1E401 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				866CE2DB277463FA00D1E401 /* TSPaaS_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3DD40D5956AD8C0AFDA3E330 /* Pods-macOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOSDemo.release.xcconfig"; path = "Target Support Files/Pods-macOSDemo/Pods-macOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6ACDB9F5ACF7969AD71B7212 /* Pods_macOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5529EE7FAC458A2D91A599 /* Pods-macOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-macOSDemo/Pods-macOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7B63BA6465C560FA98F50936 /* Pods-iOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig"; sourceTree = "<group>"; };
 		866CE2412774126B00D1E401 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866CE2442774126B00D1E401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		866CE2462774126B00D1E401 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		866CE2482774126B00D1E401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		866CE24B2774126B00D1E401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		866CE24D2774126C00D1E401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +98,39 @@
 		866CE2602774128700D1E401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		866CE2632774128700D1E401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		866CE2652774128700D1E401 /* macOSDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOSDemo.entitlements; sourceTree = "<group>"; };
+		866CE2702774477E00D1E401 /* VideoChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatManager.swift; sourceTree = "<group>"; };
+		866CE2712774477E00D1E401 /* VideoChatItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatItem.swift; sourceTree = "<group>"; };
+		866CE2722774477E00D1E401 /* EngineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineManager.swift; sourceTree = "<group>"; };
+		866CE2732774477F00D1E401 /* KeyCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCenter.swift; sourceTree = "<group>"; };
+		866CE27C277447ED00D1E401 /* VideoChatLocalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatLocalCell.xib; sourceTree = "<group>"; };
+		866CE27D277447ED00D1E401 /* VideoChatRemoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatRemoteCell.swift; sourceTree = "<group>"; };
+		866CE27E277447ED00D1E401 /* VideoChatRemoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatRemoteCell.xib; sourceTree = "<group>"; };
+		866CE27F277447ED00D1E401 /* VideoChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
+		866CE280277447ED00D1E401 /* DeviceListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceListViewController.xib; sourceTree = "<group>"; };
+		866CE281277447ED00D1E401 /* DeviceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
+		866CE282277447ED00D1E401 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		866CE283277447ED00D1E401 /* VideoChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatViewController.xib; sourceTree = "<group>"; };
+		866CE284277447ED00D1E401 /* TSAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSAlertView.xib; sourceTree = "<group>"; };
+		866CE285277447ED00D1E401 /* TSAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAlertView.swift; sourceTree = "<group>"; };
+		866CE286277447ED00D1E401 /* TSAlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAlertHelper.swift; sourceTree = "<group>"; };
+		866CE287277447ED00D1E401 /* VideoChatLocalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatLocalCell.swift; sourceTree = "<group>"; };
+		866CE294277448C200D1E401 /* TSPaaS_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TSPaaS_macOS.framework; sourceTree = "<group>"; };
+		866CE296277448F100D1E401 /* macOSDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macOSDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		866CE29A2774492900D1E401 /* NSColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Extention.swift"; sourceTree = "<group>"; };
+		866CE29B2774492900D1E401 /* TSMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMView.h; sourceTree = "<group>"; };
+		866CE29C2774492900D1E401 /* TSMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMView.m; sourceTree = "<group>"; };
+		866CE2C32774634F00D1E401 /* TSPaaS_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TSPaaS_iOS.framework; sourceTree = "<group>"; };
+		866CE2C62774637100D1E401 /* VideoChatLocalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatLocalCell.xib; sourceTree = "<group>"; };
+		866CE2C72774637100D1E401 /* VideoChatLocalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatLocalCell.swift; sourceTree = "<group>"; };
+		866CE2C82774637100D1E401 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		866CE2C92774637100D1E401 /* ChannelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelViewController.xib; sourceTree = "<group>"; };
+		866CE2CA2774637100D1E401 /* VideoChatRemoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatRemoteCell.swift; sourceTree = "<group>"; };
+		866CE2CB2774637100D1E401 /* VideoChatRemoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatRemoteCell.xib; sourceTree = "<group>"; };
+		866CE2CD2774637100D1E401 /* TSAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAlertView.swift; sourceTree = "<group>"; };
+		866CE2CE2774637100D1E401 /* TSAlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAlertHelper.swift; sourceTree = "<group>"; };
+		866CE2CF2774637100D1E401 /* TSAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSAlertView.xib; sourceTree = "<group>"; };
+		D926541C9548C3DE54ABCF33 /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DBA42BA791ABD7367CCA5562 /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866CE2DA277463FA00D1E401 /* TSPaaS_iOS.framework in Frameworks */,
+				779E058186B986D8C8CCE075 /* Pods_iOSDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +147,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866CE29F2774496B00D1E401 /* TSPaaS_macOS.framework in Frameworks */,
+				0E004B4F438A698152708F64 /* Pods_macOSDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31D5546ED8471573168C61A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBA42BA791ABD7367CCA5562 /* Pods_iOSDemo.framework */,
+				6ACDB9F5ACF7969AD71B7212 /* Pods_macOSDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		419ECB3F6A85CB3476F691C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D926541C9548C3DE54ABCF33 /* Pods-iOSDemo.debug.xcconfig */,
+				7B63BA6465C560FA98F50936 /* Pods-iOSDemo.release.xcconfig */,
+				6F5529EE7FAC458A2D91A599 /* Pods-macOSDemo.debug.xcconfig */,
+				3DD40D5956AD8C0AFDA3E330 /* Pods-macOSDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		866CE2362774119F00D1E401 = {
 			isa = PBXGroup;
 			children = (
+				866CE26F2774477E00D1E401 /* Share */,
 				866CE2432774126B00D1E401 /* iOSDemo */,
 				866CE25B2774128600D1E401 /* macOSDemo */,
 				866CE2422774126B00D1E401 /* Products */,
+				419ECB3F6A85CB3476F691C7 /* Pods */,
+				31D5546ED8471573168C61A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,8 +199,12 @@
 		866CE2432774126B00D1E401 /* iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				866CE2C52774637100D1E401 /* ChatView */,
+				866CE2CE2774637100D1E401 /* TSAlertHelper.swift */,
+				866CE2CD2774637100D1E401 /* TSAlertView.swift */,
+				866CE2CF2774637100D1E401 /* TSAlertView.xib */,
 				866CE2442774126B00D1E401 /* AppDelegate.swift */,
-				866CE2462774126B00D1E401 /* SceneDelegate.swift */,
+				866CE2C32774634F00D1E401 /* TSPaaS_iOS.framework */,
 				866CE2482774126B00D1E401 /* ViewController.swift */,
 				866CE24A2774126B00D1E401 /* Main.storyboard */,
 				866CE24D2774126C00D1E401 /* Assets.xcassets */,
@@ -89,13 +217,70 @@
 		866CE25B2774128600D1E401 /* macOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				866CE26E2774475100D1E401 /* Classes */,
+				866CE26D2774473B00D1E401 /* Common */,
 				866CE25C2774128600D1E401 /* AppDelegate.swift */,
+				866CE294277448C200D1E401 /* TSPaaS_macOS.framework */,
 				866CE25E2774128600D1E401 /* ViewController.swift */,
 				866CE2602774128700D1E401 /* Assets.xcassets */,
 				866CE2622774128700D1E401 /* Main.storyboard */,
 				866CE2652774128700D1E401 /* macOSDemo.entitlements */,
+				866CE296277448F100D1E401 /* macOSDemo-Bridging-Header.h */,
 			);
 			path = macOSDemo;
+			sourceTree = "<group>";
+		};
+		866CE26D2774473B00D1E401 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				866CE29A2774492900D1E401 /* NSColor+Extention.swift */,
+				866CE29B2774492900D1E401 /* TSMView.h */,
+				866CE29C2774492900D1E401 /* TSMView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		866CE26E2774475100D1E401 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				866CE281277447ED00D1E401 /* DeviceListViewController.swift */,
+				866CE280277447ED00D1E401 /* DeviceListViewController.xib */,
+				866CE282277447ED00D1E401 /* LoginViewController.swift */,
+				866CE286277447ED00D1E401 /* TSAlertHelper.swift */,
+				866CE285277447ED00D1E401 /* TSAlertView.swift */,
+				866CE284277447ED00D1E401 /* TSAlertView.xib */,
+				866CE287277447ED00D1E401 /* VideoChatLocalCell.swift */,
+				866CE27C277447ED00D1E401 /* VideoChatLocalCell.xib */,
+				866CE27D277447ED00D1E401 /* VideoChatRemoteCell.swift */,
+				866CE27E277447ED00D1E401 /* VideoChatRemoteCell.xib */,
+				866CE27F277447ED00D1E401 /* VideoChatViewController.swift */,
+				866CE283277447ED00D1E401 /* VideoChatViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		866CE26F2774477E00D1E401 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				866CE2702774477E00D1E401 /* VideoChatManager.swift */,
+				866CE2712774477E00D1E401 /* VideoChatItem.swift */,
+				866CE2722774477E00D1E401 /* EngineManager.swift */,
+				866CE2732774477F00D1E401 /* KeyCenter.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		866CE2C52774637100D1E401 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				866CE2C62774637100D1E401 /* VideoChatLocalCell.xib */,
+				866CE2C72774637100D1E401 /* VideoChatLocalCell.swift */,
+				866CE2C82774637100D1E401 /* ChannelViewController.swift */,
+				866CE2C92774637100D1E401 /* ChannelViewController.xib */,
+				866CE2CA2774637100D1E401 /* VideoChatRemoteCell.swift */,
+				866CE2CB2774637100D1E401 /* VideoChatRemoteCell.xib */,
+			);
+			path = ChatView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866CE2532774126C00D1E401 /* Build configuration list for PBXNativeTarget "iOSDemo" */;
 			buildPhases = (
+				8176DFC205393FA81B06C6BD /* [CP] Check Pods Manifest.lock */,
 				866CE23D2774126B00D1E401 /* Sources */,
 				866CE23E2774126B00D1E401 /* Frameworks */,
 				866CE23F2774126B00D1E401 /* Resources */,
+				D7080A9AD444ED65417D83D2 /* [CP] Embed Pods Frameworks */,
+				866CE2DC277463FA00D1E401 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866CE2662774128700D1E401 /* Build configuration list for PBXNativeTarget "macOSDemo" */;
 			buildPhases = (
+				0871009B6ACA185C0B6079BD /* [CP] Check Pods Manifest.lock */,
 				866CE2562774128600D1E401 /* Sources */,
 				866CE2572774128600D1E401 /* Frameworks */,
 				866CE2582774128600D1E401 /* Resources */,
+				866CE2A12774496B00D1E401 /* Embed Frameworks */,
+				64AE71FBC15F9E1276656DFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +341,7 @@
 					};
 					866CE2592774128600D1E401 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -178,8 +370,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				866CE2512774126C00D1E401 /* LaunchScreen.storyboard in Resources */,
+				866CE2D32774637100D1E401 /* ChannelViewController.xib in Resources */,
+				866CE2D02774637100D1E401 /* VideoChatLocalCell.xib in Resources */,
+				866CE2D92774637100D1E401 /* TSAlertView.xib in Resources */,
 				866CE24E2774126C00D1E401 /* Assets.xcassets in Resources */,
 				866CE24C2774126B00D1E401 /* Main.storyboard in Resources */,
+				866CE2D52774637100D1E401 /* VideoChatRemoteCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,21 +383,115 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866CE28F277447ED00D1E401 /* VideoChatViewController.xib in Resources */,
+				866CE288277447ED00D1E401 /* VideoChatLocalCell.xib in Resources */,
 				866CE2612774128700D1E401 /* Assets.xcassets in Resources */,
+				866CE290277447ED00D1E401 /* TSAlertView.xib in Resources */,
 				866CE2642774128700D1E401 /* Main.storyboard in Resources */,
+				866CE28C277447ED00D1E401 /* DeviceListViewController.xib in Resources */,
+				866CE28A277447ED00D1E401 /* VideoChatRemoteCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0871009B6ACA185C0B6079BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64AE71FBC15F9E1276656DFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-macOSDemo/Pods-macOSDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-macOSDemo/Pods-macOSDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-macOSDemo/Pods-macOSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8176DFC205393FA81B06C6BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7080A9AD444ED65417D83D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		866CE23D2774126B00D1E401 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866CE2D12774637100D1E401 /* VideoChatLocalCell.swift in Sources */,
 				866CE2492774126B00D1E401 /* ViewController.swift in Sources */,
+				866CE2782774477F00D1E401 /* EngineManager.swift in Sources */,
+				866CE2762774477F00D1E401 /* VideoChatItem.swift in Sources */,
 				866CE2452774126B00D1E401 /* AppDelegate.swift in Sources */,
-				866CE2472774126B00D1E401 /* SceneDelegate.swift in Sources */,
+				866CE2D82774637100D1E401 /* TSAlertHelper.swift in Sources */,
+				866CE2D72774637100D1E401 /* TSAlertView.swift in Sources */,
+				866CE27A2774477F00D1E401 /* KeyCenter.swift in Sources */,
+				866CE2D22774637100D1E401 /* ChannelViewController.swift in Sources */,
+				866CE2742774477F00D1E401 /* VideoChatManager.swift in Sources */,
+				866CE2D42774637100D1E401 /* VideoChatRemoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +499,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866CE2792774477F00D1E401 /* EngineManager.swift in Sources */,
+				866CE29D2774492900D1E401 /* NSColor+Extention.swift in Sources */,
+				866CE2772774477F00D1E401 /* VideoChatItem.swift in Sources */,
+				866CE28D277447ED00D1E401 /* DeviceListViewController.swift in Sources */,
+				866CE293277447ED00D1E401 /* VideoChatLocalCell.swift in Sources */,
+				866CE2752774477F00D1E401 /* VideoChatManager.swift in Sources */,
 				866CE25F2774128600D1E401 /* ViewController.swift in Sources */,
+				866CE27B2774477F00D1E401 /* KeyCenter.swift in Sources */,
+				866CE29E2774492900D1E401 /* TSMView.m in Sources */,
+				866CE292277447ED00D1E401 /* TSAlertHelper.swift in Sources */,
+				866CE291277447ED00D1E401 /* TSAlertView.swift in Sources */,
 				866CE25D2774128600D1E401 /* AppDelegate.swift in Sources */,
+				866CE28B277447ED00D1E401 /* VideoChatViewController.swift in Sources */,
+				866CE28E277447ED00D1E401 /* LoginViewController.swift in Sources */,
+				866CE289277447ED00D1E401 /* VideoChatRemoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +561,7 @@
 		};
 		866CE2542774126C00D1E401 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D926541C9548C3DE54ABCF33 /* Pods-iOSDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,6 +602,10 @@
 				DEVELOPMENT_TEAM = C6T93NC4DJ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSDemo",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -343,6 +651,7 @@
 		};
 		866CE2552774126C00D1E401 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B63BA6465C560FA98F50936 /* Pods-iOSDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -383,6 +692,10 @@
 				DEVELOPMENT_TEAM = C6T93NC4DJ;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSDemo",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -422,6 +735,7 @@
 		};
 		866CE2672774128700D1E401 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5529EE7FAC458A2D91A599 /* Pods-macOSDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -465,6 +779,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/macOSDemo",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -499,6 +817,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "macOSDemo/macOSDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -506,6 +825,7 @@
 		};
 		866CE2682774128700D1E401 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD40D5956AD8C0AFDA3E330 /* Pods-macOSDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -549,6 +869,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/macOSDemo",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -576,6 +900,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "macOSDemo/macOSDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
