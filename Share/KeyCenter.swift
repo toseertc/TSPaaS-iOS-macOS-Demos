@@ -7,4 +7,4 @@
 
 import Foundation
 //MARK: - replace me
-public let kAppId = ""
+public let kAppId = "Drv4Q0KB14Y85qma"

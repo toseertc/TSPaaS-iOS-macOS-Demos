@@ -89,3 +89,8 @@ fastlane/test_output
 
 Pods
 iOSInjectionProject/
+iOSDemo/TSPaaS_iOS.xcframework
+iOSDemo/TSPaaS_iOS.framework
+macOSDemo/TSPaaS_macOS.framework
+TSPaaS-Demos.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+TSPaaS-Demos.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
