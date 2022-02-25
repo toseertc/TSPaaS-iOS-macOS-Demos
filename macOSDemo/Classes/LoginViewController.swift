@@ -6,7 +6,7 @@
 //
 
 import Cocoa
-import TSPaaS_macOS
+import TSRtc_macOS
 import AVFoundation
 
 class LoginViewController: NSViewController {
@@ -25,8 +25,8 @@ class LoginViewController: NSViewController {
         print(#function)
     }
     
-    let keyForUid = "com.paas.demo.key.uid"
-    let keyForChannelId = "com.paas.demo.key.channelId"
+    let keyForUid = "com.rtc.demo.key.uid"
+    let keyForChannelId = "com.rtc.demo.key.channelId"
     
     func loadOldInput() {
     

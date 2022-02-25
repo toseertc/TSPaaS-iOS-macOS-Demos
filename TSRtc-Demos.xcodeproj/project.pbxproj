@@ -40,8 +40,6 @@
 		866CE293277447ED00D1E401 /* VideoChatLocalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE287277447ED00D1E401 /* VideoChatLocalCell.swift */; };
 		866CE29D2774492900D1E401 /* NSColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE29A2774492900D1E401 /* NSColor+Extention.swift */; };
 		866CE29E2774492900D1E401 /* TSMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CE29C2774492900D1E401 /* TSMView.m */; };
-		866CE29F2774496B00D1E401 /* TSPaaS_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866CE294277448C200D1E401 /* TSPaaS_macOS.framework */; };
-		866CE2A02774496B00D1E401 /* TSPaaS_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 866CE294277448C200D1E401 /* TSPaaS_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		866CE2D02774637100D1E401 /* VideoChatLocalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE2C62774637100D1E401 /* VideoChatLocalCell.xib */; };
 		866CE2D12774637100D1E401 /* VideoChatLocalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2C72774637100D1E401 /* VideoChatLocalCell.swift */; };
 		866CE2D22774637100D1E401 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2C82774637100D1E401 /* ChannelViewController.swift */; };
@@ -51,34 +49,7 @@
 		866CE2D72774637100D1E401 /* TSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2CD2774637100D1E401 /* TSAlertView.swift */; };
 		866CE2D82774637100D1E401 /* TSAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2CE2774637100D1E401 /* TSAlertHelper.swift */; };
 		866CE2D92774637100D1E401 /* TSAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866CE2CF2774637100D1E401 /* TSAlertView.xib */; };
-		866CE2DA277463FA00D1E401 /* TSPaaS_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866CE2C32774634F00D1E401 /* TSPaaS_iOS.framework */; platformFilter = ios; };
-		866CE2DB277463FA00D1E401 /* TSPaaS_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 866CE2C32774634F00D1E401 /* TSPaaS_iOS.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		866CE2A12774496B00D1E401 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				866CE2A02774496B00D1E401 /* TSPaaS_macOS.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		866CE2DC277463FA00D1E401 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				866CE2DB277463FA00D1E401 /* TSPaaS_iOS.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3DD40D5956AD8C0AFDA3E330 /* Pods-macOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOSDemo.release.xcconfig"; path = "Target Support Files/Pods-macOSDemo/Pods-macOSDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,12 +85,10 @@
 		866CE285277447ED00D1E401 /* TSAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAlertView.swift; sourceTree = "<group>"; };
 		866CE286277447ED00D1E401 /* TSAlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAlertHelper.swift; sourceTree = "<group>"; };
 		866CE287277447ED00D1E401 /* VideoChatLocalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatLocalCell.swift; sourceTree = "<group>"; };
-		866CE294277448C200D1E401 /* TSPaaS_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TSPaaS_macOS.framework; sourceTree = "<group>"; };
 		866CE296277448F100D1E401 /* macOSDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macOSDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		866CE29A2774492900D1E401 /* NSColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Extention.swift"; sourceTree = "<group>"; };
 		866CE29B2774492900D1E401 /* TSMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMView.h; sourceTree = "<group>"; };
 		866CE29C2774492900D1E401 /* TSMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMView.m; sourceTree = "<group>"; };
-		866CE2C32774634F00D1E401 /* TSPaaS_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TSPaaS_iOS.framework; sourceTree = "<group>"; };
 		866CE2C62774637100D1E401 /* VideoChatLocalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatLocalCell.xib; sourceTree = "<group>"; };
 		866CE2C72774637100D1E401 /* VideoChatLocalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatLocalCell.swift; sourceTree = "<group>"; };
 		866CE2C82774637100D1E401 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
@@ -138,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866CE2DA277463FA00D1E401 /* TSPaaS_iOS.framework in Frameworks */,
 				779E058186B986D8C8CCE075 /* Pods_iOSDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +115,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866CE29F2774496B00D1E401 /* TSPaaS_macOS.framework in Frameworks */,
 				0E004B4F438A698152708F64 /* Pods_macOSDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +171,6 @@
 				866CE2CD2774637100D1E401 /* TSAlertView.swift */,
 				866CE2CF2774637100D1E401 /* TSAlertView.xib */,
 				866CE2442774126B00D1E401 /* AppDelegate.swift */,
-				866CE2C32774634F00D1E401 /* TSPaaS_iOS.framework */,
 				866CE2482774126B00D1E401 /* ViewController.swift */,
 				866CE24A2774126B00D1E401 /* Main.storyboard */,
 				866CE24D2774126C00D1E401 /* Assets.xcassets */,
@@ -220,7 +186,6 @@
 				866CE26E2774475100D1E401 /* Classes */,
 				866CE26D2774473B00D1E401 /* Common */,
 				866CE25C2774128600D1E401 /* AppDelegate.swift */,
-				866CE294277448C200D1E401 /* TSPaaS_macOS.framework */,
 				866CE25E2774128600D1E401 /* ViewController.swift */,
 				866CE2602774128700D1E401 /* Assets.xcassets */,
 				866CE2622774128700D1E401 /* Main.storyboard */,
@@ -295,7 +260,6 @@
 				866CE23E2774126B00D1E401 /* Frameworks */,
 				866CE23F2774126B00D1E401 /* Resources */,
 				D7080A9AD444ED65417D83D2 /* [CP] Embed Pods Frameworks */,
-				866CE2DC277463FA00D1E401 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,7 +278,6 @@
 				866CE2562774128600D1E401 /* Sources */,
 				866CE2572774128600D1E401 /* Frameworks */,
 				866CE2582774128600D1E401 /* Resources */,
-				866CE2A12774496B00D1E401 /* Embed Frameworks */,
 				64AE71FBC15F9E1276656DFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -345,7 +308,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 866CE23A2774119F00D1E401 /* Build configuration list for PBXProject "TSPaaS-Demos" */;
+			buildConfigurationList = 866CE23A2774119F00D1E401 /* Build configuration list for PBXProject "TSRtc-Demos" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -638,7 +601,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tosee.paas.iOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosee.rtc.iOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -721,7 +684,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tosee.paas.iOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosee.rtc.iOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -813,7 +776,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tosee.paas.macOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosee.rtc.macOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -897,7 +860,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tosee.paas.macOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tosee.rtc.macOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -911,7 +874,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		866CE23A2774119F00D1E401 /* Build configuration list for PBXProject "TSPaaS-Demos" */ = {
+		866CE23A2774119F00D1E401 /* Build configuration list for PBXProject "TSRtc-Demos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				866CE23B2774119F00D1E401 /* Debug */,

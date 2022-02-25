@@ -1,12 +1,12 @@
 //
 //  ViewController.swift
-//  TSpaas_sdk_demo_ios
+//  TSRtc_sdk_demo_ios
 //
 //  Created by ding yusong on 2021/1/5.
 //
 
 import UIKit
-import TSPaaS_iOS
+import TSRtc_iOS
 
 
 class ViewController: UIViewController, TSRtcEngineDelegate, TSRtcChannelDelegate {
@@ -24,8 +24,8 @@ class ViewController: UIViewController, TSRtcEngineDelegate, TSRtcChannelDelegat
     
     var inJoinState = false
     
-    let keyForUid = "com.paas.demo.key.uid"
-    let keyForChannelId = "com.paas.demo.key.channelId"
+    let keyForUid = "com.rtc.demo.key.uid"
+    let keyForChannelId = "com.rtc.demo.key.channelId"
     
     func loadOldInput() {
         

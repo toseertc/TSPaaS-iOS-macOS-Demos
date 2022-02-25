@@ -7,12 +7,12 @@
 
 #if os(iOS)
 import UIKit
-import TSPaaS_iOS
+import TSRtc_iOS
 #endif
 
 #if os(OSX)
 import Cocoa
-import TSPaaS_macOS
+import TSRtc_macOS
 #endif
 
 @objc protocol VideoChatManagerDelegate: NSObjectProtocol {

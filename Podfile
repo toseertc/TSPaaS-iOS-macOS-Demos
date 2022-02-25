@@ -8,6 +8,7 @@ target 'iOSDemo' do
   # Pods for iOSDemo
   pod 'IQKeyboardManagerSwift', '~> 6.5.6'
   pod 'SnapKit', '~> 5.0.0'
+  pod 'TSRtc_iOS', '~> 2.2.0'
 end
 
 target 'macOSDemo' do
@@ -16,4 +17,5 @@ target 'macOSDemo' do
 
   # Pods for macOSDemo
   pod 'SnapKit', '~> 5.0.0'
+  pod 'TSRtc_macOS', '~> 2.2.0'
 end

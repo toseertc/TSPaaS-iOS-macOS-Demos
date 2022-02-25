@@ -7,14 +7,14 @@
 
 #if os(iOS)
 import UIKit
-import TSPaaS_iOS
+import TSRtc_iOS
 
 typealias VIEW_CLASS = UIView
 #endif
 
 #if os(OSX)
 import Cocoa
-import TSPaaS_macOS
+import TSRtc_macOS
 
 typealias VIEW_CLASS = NSView
 #endif

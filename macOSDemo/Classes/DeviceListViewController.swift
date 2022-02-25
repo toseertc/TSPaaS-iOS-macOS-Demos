@@ -6,7 +6,7 @@
 //
 
 import Cocoa
-import TSPaaS_macOS
+import TSRtc_macOS
 
 class DeviceListViewController: NSViewController {
 
