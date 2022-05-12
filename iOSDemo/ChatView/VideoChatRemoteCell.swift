@@ -47,8 +47,8 @@ class VideoChatRemoteCell: UICollectionViewCell {
     
     func configWith(item: VideoChatItem) {
         self.chatItem = item
-        
         item.addCanvsTo(view: self.videoView)
+
         self.uidLabel.text = "\(item.uid)"
         
         let audioImageName = (item.audioState.remoteNoSend || item.audioState.noReceive) ? "audio_remote_mute" : "audio_remote_unmute"

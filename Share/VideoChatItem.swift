@@ -52,14 +52,25 @@ class VideoChatItem: NSObject {
     
     
     func addCanvsTo(view: VIEW_CLASS) {
-        self.canvas.view?.removeFromSuperview()
         
-        guard let canvasView = self.canvas.view else  {
+        if !self.videoState.online {
+            view.subviews.forEach { $0.removeFromSuperview() }
+            return
+        }
+        
+        view.subviews.forEach { $0.removeFromSuperview() }
+        let canvas = TSRtcVideoCanvas.init()
+        canvas.view = UIView()
+        canvas.uid = self.uid
+        canvas.mirrorMode = .auto
+        canvas.renderMode = .fit
+        view.addSubview(canvas.view!)
+        EngineManager.sharedEngineManager.rtcChannel?.setupRemoteVideo(canvas)
+        guard let canvasView = canvas.view else  {
             return
         }
         
         canvasView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(canvasView)
         let left = NSLayoutConstraint.init(item: canvasView, attribute: .leading, relatedBy: .equal, toItem: view, attribute: .leading, multiplier: 1.0, constant: 0)
         let rigth = NSLayoutConstraint.init(item: canvasView, attribute: .trailing, relatedBy: .equal, toItem: view, attribute: .trailing, multiplier: 1.0, constant: 0)
         let top = NSLayoutConstraint.init(item: canvasView, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1.0, constant: 0)

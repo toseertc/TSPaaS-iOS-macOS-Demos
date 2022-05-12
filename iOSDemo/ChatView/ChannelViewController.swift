@@ -31,7 +31,7 @@ class ChannelViewController: UIViewController{
             
             let layout:UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
             let cellWidth = (UIScreen.main.bounds.size.width-2*3)/2.0
-            layout.itemSize = CGSize.init(width: cellWidth, height: 140.0)
+            layout.itemSize = CGSize.init(width: cellWidth, height: 500)
             layout.minimumLineSpacing = 2;
             layout.minimumInteritemSpacing = 2;
             layout.sectionInset = UIEdgeInsets.init(top: 2, left: 2, bottom: 2, right: 2)
@@ -247,7 +247,7 @@ extension ChannelViewController:VideoChatManagerDelegate {
         if !online || item.isLocal{
             return
         }
-        EngineManager.sharedEngineManager.setupRemoteVideoCanvas(item.canvas)
+//        EngineManager.sharedEngineManager.setupRemoteVideoCanvas(item.canvas)
     }
     
     func shouldReloadAll() {

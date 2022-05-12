@@ -73,7 +73,8 @@ class EngineManager: NSObject {
     }
     
     func createChannel(channelId: String) -> Bool {
-        self.rtcChannel = self.rtcEngine.createRtcChannel(channelId, profile: .communication, delegate: self)
+        self.rtcChannel = self.rtcEngine.createRtcChannel(channelId, profile: .liveBroadcasting, delegate: self)
+        self.rtcChannel?.setClientRole(.audience)
         return self.rtcChannel != nil
     }
     
