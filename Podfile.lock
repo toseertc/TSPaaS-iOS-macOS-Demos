@@ -1,14 +1,14 @@
 PODS:
   - IQKeyboardManagerSwift (6.5.6)
   - SnapKit (5.0.1)
-  - TSRtc_iOS (2.3.0)
-  - TSRtc_macOS (2.3.0)
+  - TSRtc_iOS (3.7.0)
+  - TSRtc_macOS (3.7.0)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift (~> 6.5.6)
   - SnapKit (~> 5.0.0)
-  - TSRtc_iOS (~> 2.3.0)
-  - TSRtc_macOS (~> 2.3.0)
+  - TSRtc_iOS (~> 3.7.0)
+  - TSRtc_macOS (~> 3.7.0)
 
 SPEC REPOS:
   trunk:
@@ -20,9 +20,9 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  TSRtc_iOS: e6730292319f93769c3dddf0d7c46beb2501acc3
-  TSRtc_macOS: fe9636e091c9c2a0fc936253503acece860b7783
+  TSRtc_iOS: 9766a9953ae6eae4d826497c38cf8a7a283ef369
+  TSRtc_macOS: c5a1fdce1668aca636643758f6c495daddfa53bb
 
-PODFILE CHECKSUM: 1a6c97255aa1ed952bd93f8d36a3a1f9ca2dda97
+PODFILE CHECKSUM: bff71fdd110d7c05c21e6bf599459d568c8c27dc
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

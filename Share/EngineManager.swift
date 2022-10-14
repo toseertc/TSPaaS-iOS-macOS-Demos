@@ -247,7 +247,8 @@ extension EngineManager: TSRtcChannelDelegate {
         
         if errorCode >= TSErrorCode.lookupScheduleServerFailed.rawValue &&
             errorCode <= TSErrorCode.noAvailableServerResources.rawValue ||
-            errorCode == TSErrorCode.invalidAppId.rawValue {
+            errorCode == TSErrorCode.invalidAppId.rawValue ||
+            errorCode == TSErrorCode.lookupScheduleServerTimeout.rawValue {
             runOnMainThread {
                 //join channel, but occur error, should leave
                 self.delegate?.shouldHandleJoinError?(code: Int(errorCode), message: message)
